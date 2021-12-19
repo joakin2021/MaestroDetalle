@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Application xmlns="http://xmlns.oracle.com/adfm/application"
+             version="11.1.1.56.60" id="DataBindings" SeparateXMLFiles="false"
+             Package="tutorial.tareasWeb.view" ClientType="Generic">
+  <pageMap>
+    <page path="/index.jsp" usageId="tutorial_tareasWeb_view_indexPageDef"/>
+    <page path="/index.jsf.jsp" usageId="tutorial_tareasWeb_view_jsfPageDef"/>
+  </pageMap>
+  <pageDefinitionUsages>
+    <page id="tutorial_tareasWeb_view_indexPageDef"
+          path="tutorial.tareasWeb.view.pageDefs.indexPageDef"/>
+    <page id="tutorial_tareasWeb_view_jsfPageDef" path="index.jsfPageDef"/>
+  </pageDefinitionUsages>
+  <dataControlUsages>
+    <BC4JDataControl id="AppModuleDataControl"
+                     Package="tutorial.tareasWeb.model"
+                     FactoryClass="oracle.adf.model.bc4j.DataControlFactoryImpl"
+                     SupportsTransactions="true" SupportsFindMode="true"
+                     SupportsRangesize="true" SupportsResetState="true"
+                     SupportsSortCollection="true"
+                     Configuration="AppModuleLocal" syncMode="Immediate"
+                     xmlns="http://xmlns.oracle.com/adfm/datacontrol"/>
+  </dataControlUsages>
+</Application>
