@@ -7,9 +7,9 @@
 Este repositorio contiene el proyecto (maestro detalle)  Realizado 15/12/2021.
 
 
-Profesor: Paliza, Martin.
+Profesor: Paliza Martin.
 
-Integrante: Cortez Gerardo joaquin.
+Alumno: Cortez Gerardo joaquin.
 
 MaestroDetalle_V11g Ejemplo de MaestroDetalle con Framework ADF.
 Versión ejecutada con el Jdeveloper 11g.
